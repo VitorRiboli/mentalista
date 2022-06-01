@@ -1,6 +1,7 @@
 
 var numeroSecreto = parseInt(Math.random() * 11); //Se esse codigo ficar fora do escopo ele sera gerado apenas uma vez
 console.log(numeroSecreto)
+
 function Chutar(){
    // var numeroSecreto = parseInt(Math.random() * 11); // aqui dentro toda vez que clicar no botao será gerado um novo numero
     var resultado = document.getElementById("resultado");
@@ -22,5 +23,8 @@ function Chutar(){
     } else if (numeroSecreto >= 6 && numeroSecreto <= 10){
         dica.innerHTML = "Número entre 6 e 10"
     }
+
+    
+
 };
 
